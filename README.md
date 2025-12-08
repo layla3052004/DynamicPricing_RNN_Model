@@ -1,8 +1,11 @@
 📊 Retail Price Elasticity Prediction with RNN
+
 🎯 Project Overview
 A deep learning model using Recurrent Neural Networks (RNNs) to predict price elasticity of demand in retail. It analyzes historical sales, competitor prices, and promotions to forecast demand responses to price changes, supporting optimal pricing strategies.
+
 📈 Business Problem
 Retailers face challenges in setting optimal prices, gauging demand sensitivity, countering competitors, and optimizing promotions. This project predicts price elasticity to enable data-driven decisions.
+
 🏗️ Architecture
 textInput Data → Feature Engineering → Sequence Creation → Hybrid CNN-LSTM → Elasticity Prediction → Price Optimization
 
