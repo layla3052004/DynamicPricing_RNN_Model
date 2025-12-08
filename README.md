@@ -110,4 +110,3 @@ Inventory: Boost stock for highly elastic items.
 
 
 
-RangeSensitivityImplication<-2.0Highly ElasticBig demand shifts-2.0 to -1.0ElasticModerate response-1.0 to 0InelasticStable demand>0GiffenLuxury/upward demand
