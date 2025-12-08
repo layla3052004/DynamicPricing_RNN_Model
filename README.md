@@ -85,29 +85,6 @@ Inventory: Boost stock for highly elastic items.
 
 
 
-ClassMAESamplesHighly Elastic0.42150Elastic0.38450Inelastic0.45300Giffen/Veblen0.51100
-💡 Usage
-Predict Elasticity
-Pythonmodel = tf.keras.models.load_model('models/price_elasticity_rnn_model.h5')
-elasticity = target_scaler.inverse_transform(model.predict(sequence))[0][0]
-Optimize Price
-Pythonfrom src.price_optimization import optimize_price
-optimal = optimize_price(current_price=100, elasticity=-1.5, cost=60, margin=0.30)
-🎯 Applications
-
-Dynamic Pricing: Adjust based on elasticity thresholds.
-Promotions: Deep discounts for elastic goods.
-Inventory: Boost stock for highly elastic items.
-
-🔄 Retraining
-Bashpython src/retraining_pipeline.py --new-data "data/new_sales.csv" --model-path "models/model.h5"
-Monitor drift; retrain on accuracy drop.
-📊 Interpretation
-
-
-
-
-
 
 
 
