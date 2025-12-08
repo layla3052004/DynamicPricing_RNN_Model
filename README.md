@@ -8,7 +8,6 @@ A deep learning model using Recurrent Neural Networks (RNNs) to predict price el
 Retailers face challenges in setting optimal prices, gauging demand sensitivity, countering competitors, and optimizing promotions. This project predicts **price elasticity** to enable data-driven decisions.
 
 ## 🏗️ Architecture
-```
 Input Data → Feature Engineering → Sequence Creation → Hybrid CNN-LSTM → Elasticity Prediction → Price Optimization
 ```
 - **Hybrid CNN-LSTM**: Conv1D for patterns + Bidirectional LSTM for sequences.
@@ -28,18 +27,6 @@ retail-price-elasticity/
 └── price_elasticity_rnn.py
 ```
 
-## 🚀 Quick Start
-### Prerequisites
-- Python 3.8+
-- `pip install -r requirements.txt`
-
-### Installation & Run
-```bash
-git clone https://github.com/yourusername/retail-price-elasticity.git
-cd retail-price-elasticity
-pip install -r requirements.txt
-python price_elasticity_rnn.py  # Trains model, saves artifacts
-```
 
 ## 📊 Dataset
 - **Source**: `retail_store_inventory.csv` (5K+ records, 14 days, 5 stores, 20 products).
@@ -102,15 +89,12 @@ Monitor drift; retrain on accuracy drop.
 | -1.0 to 0 | Inelastic | Stable demand |
 | >0 | Giffen | Luxury/upward demand |
 
-## 🤝 Contributing & License
-- Fork, branch, PR. Follow PEP8, add tests.
-- MIT License.
 
 ## 👥 Authors & Contact
 -  [MariamHelal](https://github.com/layla3052004)
 - Issues: [GitHub](https://github.com/layla3052004/DynamicPricing_RNN_Model)
 
-**⭐ Star if useful! Next: API, dashboard, A/B integration. Last Updated: March 2024**
+**⭐ Star if useful! Next: API, dashboard, A/B integration.
 ```
 
 
